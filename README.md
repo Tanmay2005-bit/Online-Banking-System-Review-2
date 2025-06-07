@@ -20,12 +20,16 @@ Console Banking System
 
 -> Main.java 
 Main entry point to launch the app
+
 -> model
 User.java # User class containing user attributes
+
 -> dao
  UserDAO.java # Handles user data CRUD operations
+ 
 ->service
 BankService.java # Business logic for banking functions
+
 -> io
 FileManager.java # File I/O operations (users + transactions)
 
